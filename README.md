@@ -18,7 +18,7 @@ An AI assistant for a coaching institute. It answers questions about courses, fe
 
 - [Next.js](https://nextjs.org) (App Router) + TypeScript + Tailwind CSS
 - [AI SDK](https://ai-sdk.dev): `streamText`, tool calling, `useChat`
-- [Vercel AI Gateway](https://vercel.com/docs/ai-gateway): model `anthropic/claude-haiku-5.5`, which can be switched to any supported model with the `AI_GATEWAY_MODEL` environment variable
+- [Vercel AI Gateway](https://vercel.com/docs/ai-gateway): model `google/gemini-2.5-flash`, which can be switched to any supported model with the `AI_GATEWAY_MODEL` environment variable
 - Deployed on Vercel. Gateway authentication uses Vercel OIDC, so there are no API keys in the code.
 
 ## Adapting it for your business

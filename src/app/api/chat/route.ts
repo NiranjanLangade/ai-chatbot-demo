@@ -14,7 +14,7 @@ import { z } from 'zod';
 export const maxDuration = 30;
 
 // Model routed through Vercel AI Gateway (auth via Vercel OIDC on deployment).
-const MODEL = process.env.AI_GATEWAY_MODEL ?? 'anthropic/claude-haiku-5.5';
+const MODEL = process.env.AI_GATEWAY_MODEL ?? 'google/gemini-2.5-flash';
 
 // Guardrails so a public demo can't run up costs.
 const MAX_HISTORY = 12;
